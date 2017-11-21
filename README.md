@@ -21,7 +21,10 @@ int main()
 
 but are tired of updating the date/time everytime you save the file? Wish there was a way to just make the datestamp update itself everytime you saved?
 
-Well now there is! The code in the file ```add_date.py``` can do exactly just that. To use it, simply:
+Well now there is! The code in the file ```add_date.py``` can do exactly just that.
+
+## So how do I use this?
+To use it, simply:
 1. Save the file ```add_date.py``` in Sublime Text -> Packages -> User.
 2. Go to Sublime Text -> Preferences -> Key Bindings, and add this into User:
 
@@ -95,7 +98,7 @@ print("Hello World")
 
 Again, if you want to change the format for the date/heading in your source files to something other than "Last Edited: dd mon year hh:mmPM", read the comments in ```add_date.py```, which will give you instructions on how to do that.
 
-***But what if I want different formats for different syntaxes?***
+### ***But what if I want different formats for different syntaxes?***
 
 Sometimes you may want to use a different format for your headings/dates depending on your file. For example, for your Python files you may want the date stored as a string in a magic variable for documentation purposes, like this:
 ```python
