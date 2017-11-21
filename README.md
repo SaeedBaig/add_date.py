@@ -177,7 +177,7 @@ def run(self, args):
     self.view.sel().add(original_position)
     self.view.show(original_position)
 ```
-don't worry if that seems like a lot! It's only mildly different to the ```run``` function in the normal ```add_date.py``` file. It's not the most elegant solution, but hopefully you can see how selecting syntaxes work well enough here to be able to make your own syntax-specific formats by editing the ```run``` function appropriatey.
+Don't worry if that seems like a lot! It's only mildly different to the ```run``` function in the normal ```add_date.py``` file. It's not the most elegant solution, but hopefully you can see how selecting syntaxes work well enough here to be able to make your own syntax-specific formats by editing the ```run``` function appropriatey.
 
 **KNOWN ISSUES**:
 * You DO need some date string in the file to begin with for the formatting to stay the same. If u try hitting command + s on something like this:
@@ -213,4 +213,4 @@ int main()
 But at least you'll only have to add the date format once (which I just use a Sublime Text snippet for anyways).
 Hope this helps!
 
-* The view will shift a bit everytime you save if your save point isn't directly in the middle of the screen (i.e. the file will automatically scroll to make the line you're writing on when you pressed command+S the centre of the view).
+* The view will shift a bit everytime you save if your cursor isn't directly in the middle of the screen (i.e. Sublime Text will automatically scroll to make the line your cursor was on when you pressed command+S the centre of the view).
