@@ -25,7 +25,7 @@ Well now there is! The code in the file ```add_date.py``` can do exactly just th
 1. Save the file ```add_date.py``` in Sublime Text -> Packages -> User.
 2. Go to Sublime Text -> Preferences -> Key Bindings, and add this into User:
 
-```JSON
+```json
 [
     {"keys": ["super+s"], "command": "date_and_save" }
 ]
