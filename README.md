@@ -26,7 +26,7 @@ Well now there is! The code in the file ```add_date.py``` can do exactly just th
 ## So how do I use this?
 To use it, simply:
 1. Save the file ```add_date.py``` in Sublime Text -> Packages -> User.
-2. Go to Sublime Text -> Preferences -> Key Bindings, and add this into User:
+2. Go to Sublime Text -> Preferences -> Key Bindings, and add this into User. Feel free to change "super+s" to whatever keybinding you prefer (e.g. "ctrl+s" on Windows/Linux):
 
 ```json
 [
